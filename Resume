@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+ 
+ 
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #5a5a5a;
+  overflow-x: hidden;
+}
+ 
+#a{ padding:10px;
+ 
+}
+#h1{
+  text-align: center;
+  font-size: 40px;
+  border:2px solid black;
+  width:500px;
+  margin-left:400px;
+padding: 10px;
+font-family:Calibri;
+ 
+ 
+}
+ 
+#myimage{
+ 
+ 
+}
+ 
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+ 
+#pro{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top:120px;
+  left:435px;
+ 
+  text-align: center;
+  padding-left:20px;
+  padding-right: 10px;
+  background-color: #88b378;
+  color:white;
+  font-family:  Calibri Light;
+ 
+}
+ 
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#line
+{
+  border-left:2px solid black;
+  height:220px;
+  position: absolute;
+  left:610px;
+  top:120px;
+}
+ 
+#profile
+{
+  position: absolute;
+  top:120px;
+  left:630px;
+  font-family:Calibri;
+}
+ 
+#skill{
+position: relative;
+   left:10px;
+ 
+}
+ 
+#edu{
+font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top:372px;
+  left:300px;
+ 
+   text-align: center;
+  padding-left:20px;
+  padding-right: 10px;
+  background-color: #88b378;
+  color:white;
+  font-family:Calibri Light;
+}
+ 
+#edu1{
+ 
+ 
+  position: absolute;
+  top:360px;
+  left:600px;
+}
+ 
+ 
+ 
+#line1
+{
+  border-left:2px solid black;
+  height:160px;
+  position: absolute;
+  left:610px;
+  top:370px;
+}
+ 
+#program{
+  position: absolute;
+  bottom:0px;
+}
+ 
+#software
+{
+  position: absolute;
+  bottom:-3px;
+  right:20px;
+}
+ 
+#project{
+  position: absolute;
+  bottom: 0px;
+  left:42%;
+ 
+ 
+}
+ 
+ 
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+ 
+#pics{
+  position: absolute;
+  top:15px;
+  right:200px;
+  line-height: 25px;
+}
+ 
+#name
+{
+	
+	width:450px;
+	text-align: center;
+	padding-left:20px;
+	background-color: #88b378;
+	color:white;
+	position: absolute;
+	top:70px;
+	left:640px;
+	font-family:Calibri Light;
+	
+}
+ 
+#info
+{
+position: absolute;
+  top:0px;
+  right:0px;
+  line-height: 25px;
+  font-size: 12px;
+}
+ 
+#skil
+{
+	text-decoration: underline;
+  text-decoration-color: #88b378;
+}
+ 
+#b1
+{
+	 text-align: center;
+  padding-left:20px;
+  padding-right: 10px;
+  background-color: #88b378;
+  color:white;
+  font-family:Calibri Light;
+} 
+ 
+#b2
+{
+	 text-align: center;
+  padding-left:20px;
+  padding-right: 10px;
+  background-color: #88b378;
+  color:white;
+  font-family:Calibri Light;
+} 
+ 
+ #b3
+{
+	 text-align: center;
+  padding-left:20px;
+  padding-right: 10px;
+  background-color: #88b378;
+  color:white;
+  font-family:Calibri Light;
+} 
+ 
+</style>
+</head>
+<body>
+ 
+<div class="sidenav">
+ 
+ <img id="a" src="C:/Users/DELL/Downloads/vitaplogo.jpeg" width="200" height="100">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+ 
+ 
+ 
+ 
+ 
+<div class="content">
+<h1 id="h1">Resume</h1>
+   <img id="myimage" src="C:/Users/DELL/Downloads/profile.jpeg" width="200" height="200">
+   <span id="line"></span>
+ 
+ 
+ <p id="name">Anandita Jain</p>
+ 
+ 
+<div id="pro">Student Profile</div>
+ 
+ 
+<div id="profile">A student with a desire to explore his technical talents further by cooperating with other Enthusiastic professionals from the field of computer sciences and algorithms.Teamwork  and the never give up attitude form the basic personality outline.</br></br>
+<h2 id="skil">Key skill sets:</h2>
+          
+<div id="skill">
+    <ul style="font-family: Calibri">
+        <li>Problem Solving</li>
+       <li>Determination</li>
+       <li>Openness towards creative ideas</li>
+       <li>Teamwork</li>
+        <li>Decision making.</li>
+    </ul>
+</div>
+</div>
+ 
+ 
+<div id="edu">Education And Qualifications</div>
+<span id="line1"></span>
+ 
+<div id="edu1" style="font-family: Calibri">
+ 
+ <ul type="square">
+  <li><strong>VIT AP: </strong><span>2018-2022</span></li>
+    <ul>
+      <li> Pursuing B.Tech, Computer Science And Engineering</li>
+    </ul>
+  </ul>
+ 
+ 
+<ul type="square">
+  <li><strong>Guru Nanak Public School: </strong><span>2016-2018</span></li>
+    <ul type="circle">
+      <li>Central Board Of Secondary Education(CBSE)</li>
+      <li>Percentage : <strong>93%</strong></li>
+      </ul>
+      <li><strong>Mayo College Girls' School: </strong><span>2009-2016</span></li>
+    <ul type="circle">
+      <li>Indian Certificate of Secondary Education (ICSE)</li>
+      <li>Percentage : <strong>94%</strong></li>
+    
+  </ul>
+ 
+ 
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<div id="program" style="font-family: Calibri">
+  <h3 id="b1">Languages Known</h3>
+  <p><strong>Basic Level</strong></br>Python, XML, Arduino, Codec</p>
+  <p ><strong>Intermediate Level</strong></br>Java, C, C++, HTML, MYSQL</p>
+</div>
+ 
+<div id="software" style="font-family: Calibri">
+  <h3 id="b2">Softwares Mastered</h3>
+  <ul>
+    <li>NetBeans</li>
+    <li>Adobe Photoshop</li>
+    <li>MS Office Suite</li>
+    <li>Adobe Premier Pro</li>
+    <li>After Effects 15.0</li>
+  </ul>
+</div>
+ 
+ 
+<div id="project" style="font-family: Calibri">
+  <h3 id="b3">Projects Undertaken</h3>
+  <p><strong>Freshers</strong></br>An Arduino Coding Based Model Of An ECG and Heartbeat Sensor</p>
+  <p ><strong>Sophomores</strong></br>Designing An Automatic Bike Blazer with the help of the Python Programmed Raspberry Pi. </p>
+</div>
+ 
+  
+ 
+  <div id="pics">
+<img src="C:/Users/DELL/Downloads/phone.jpeg" width="25" height="25"></br>
+<img src="C:/Users/DELL/Downloads/email.jpeg" width="25" height="25"></br>
+<img src="C:/Users/DELL/Downloads/linkedin.jpeg" width="25" height="25"></br>
+</div>
+ 
+<div id="info">
+  <strong>
+    <p>8529759304</p>
+    <p>ananditamayoite6@gmail.com</p>
+    <p>www.linkedin.com/ananditajain</p>
+  </strong>
+</div>
+ 
+ 
+</div>
+ 
+ 
+ 
+ 
+</body>
+</html>
+ 
+ 
+ 
+
